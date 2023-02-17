@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkolivegreen;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: darkolivegreen;
+        }
+
+        nav > a {
+            text-decoration: none;
+            background-color: darkolivegreen;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            color: yellowgreen;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: white;
+            padding: 1px;
+            font-weight: bold;
+        }
+
+        aside {
+            background-color: rgb(59, 75, 33);
+            color: white;
+            padding: 5px;
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            
+                <a href="#">Seção 01</a>
+                <a href="#">Seção 02</a>
+                <a href="#">Seção 03</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="turismo">
+            <h2>Pontos Turíscos de Manaus</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo, error tempore corporis eaque fugit impedit adipisci itaque quos ducimus iusto debitis iste laudantium tenetur labore id quis sequi? Repellendus!</p>
+        </section>
+        <section id="comida">
+            <h2>Comidas Típicas de Manaus</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero veniam aspernatur numquam deleniti exercitationem. Voluptates obcaecati quasi deserunt unde, nostrum sint possimus numquam, doloremque ipsum architecto delectus voluptate reiciendis.</p>
+        </section>
+        <section id="historia">
+            <article>
+                <h2>História de Manaus</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo eaque molestiae beatae, nihil harum, nemo consequuntur, architecto ad nisi fugit illum necessitatibus hic explicabo pariatur voluptate ea iste neque.</p>
+                <aside>
+                    Artigo escrito pelo historiador Emanuel Carlos Rocha
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela Prefeitura de Manaus</p>
+    </footer>
+</body>
+</html>
