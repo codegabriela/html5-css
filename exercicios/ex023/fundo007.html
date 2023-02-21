@@ -7,15 +7,29 @@
     <title>Alinhamento vertical</title>
     <style>
         #container {
-            height: 500px;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            /* posicionamentos importantes */
+            position: relative;
+            height: 94vh;
             padding: 10px;
             background-color: purple;
         }
 
         #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            /* posicionamentos importantes */
+            position: absolute;
             height: 200px;
             width: 400px;
             background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            /* transform aqui os valores negativos a imagem vai pra esquerda e pra cima, positivo vai para direita e para baixo*/
+            /* primeiro passo o position relative/absolute, depois lef e top, por ultimo transform */
         }
     </style>
 </head>
