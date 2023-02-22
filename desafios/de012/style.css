@@ -59,6 +59,7 @@ section {
 #joaninha {
     background-image: url(imagens/background001.jpg);
     min-height: 200px;
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,6 +68,8 @@ section {
 
 .img1 {
     color: white;
+    
+    
 }
 
 footer {
