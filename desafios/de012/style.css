@@ -1,1 +1,45 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url(fontes/xilosa_.ttf) format('truetype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-titulo: 'Padyakke Expanded One', 'cursive';
+    --fonte-titulo2: 'Racing Sans One', 'cursive';
+    --fonte-xilosa: 'Xilosa', 'cursive';
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+header > h1 {
+    font-family: var(--fonte-xilosa);
+    font-weight: bolder;
+    font-size: 110px;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header > a {
+    text-decoration: white;
+    color: white;
+}
