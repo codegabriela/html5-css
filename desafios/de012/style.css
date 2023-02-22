@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 @font-face {
     font-family: 'Xilosa';
@@ -16,9 +16,15 @@
 }
 
 :root {
-    --fonte-titulo: 'Padyakke Expanded One', 'cursive';
-    --fonte-titulo2: 'Racing Sans One', 'cursive';
     --fonte-xilosa: 'Xilosa', 'cursive';
+    --fonte-sessoes1: 'Courgette', 'cursive';
+    --fonte-sessoes2: 'Solitreo', 'cursive';
+}
+
+body {
+    background-image: url(imagens/fundo-de-papel-antigo-do-vintage-grunge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 header {
@@ -42,4 +48,16 @@ span {
 header > a {
     text-decoration: white;
     color: white;
+}
+
+section {
+    /* font-family: var(--fonte-sessoes2);
+    font-size: 50px;
+    line-height: 90px;
+    font-style: italic;
+    font-weight: bold; */
+    font: italic bold 50px/90px var(--fonte-sessoes2);
+    padding: 10px;
+    margin: 60px;
+    
 }
