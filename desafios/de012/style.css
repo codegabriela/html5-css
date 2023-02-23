@@ -58,7 +58,30 @@ section {
 
 #joaninha {
     background-image: url(imagens/background001.jpg);
-    min-height: 200px;
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.img1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 619px;
+    width: 566px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 41px;
+    right: 16px;
+}
+
+#paginas {
+    background-image: url(imagens/background002.jpg);
+    min-height: 400px;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -66,10 +89,16 @@ section {
     background-size: cover;
 }
 
-.img1 {
+.img2 {
     color: white;
-    
-    
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 619px;
+    width: 566px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 41px;
+    right: 16px;
 }
 
 footer {
@@ -78,6 +107,7 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 20px;
+    margin-top: 150px;
 }
 
 footer > a {
